@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.min.css">
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <title>Preguntas Frecuentes</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Preguntas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <h1 class="text-center mb-4">Preguntas Frecuentes</h1>
+        <p class="text-center">Aquí encontrarás respuestas a algunas de las preguntas más comunes.</p>
+
+        <div class="accordion" id="faqAccordion">
+            <div class="card mb-3">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            ¿Cómo puedo contactarlos?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Puedes contactarnos a través del formulario en la sección de "Contacto" o enviarnos un correo electrónico a contacto@tusitio.com.
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Qué servicios ofrecen?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Ofrecemos desarrollo web, consultoría en tecnología y optimización SEO, entre otros servicios.
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Tienen algún tipo de garantía?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Sí, ofrecemos una garantía de satisfacción en nuestros servicios. Si no estás satisfecho, trabajaremos contigo para resolver cualquier problema.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>© 2024 LSC. Universidad Autónoma de Chiapas.</p>
+    </footer>
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

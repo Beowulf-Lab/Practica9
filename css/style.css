@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    color: #343a40;
+    font-size: 1.25rem;
+}
+
+.card-subtitle {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.card-link {
+    color: #007bff;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.accordion .card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.accordion .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.accordion .btn-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.accordion .btn-link:hover {
+    text-decoration: underline;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+    border-radius: 5px;
+}
